@@ -8,18 +8,13 @@
         "allowSyntheticDefaultImports": true,
         "strict": true,
         "forceConsistentCasingInFileNames": true,
-        "noFallthroughCasesInSwitch": true,
         "module": "esnext",
         "moduleResolution": "node",
         "resolveJsonModule": true,
         "isolatedModules": true,
         "noEmit": true,
-        "jsx": "react-jsx",
-        "sourceMap": true,
-        "declaration": true,
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
-        "incremental": true
+        "jsx": "react",
+        "types": []
     },
     "include": ["src/**/*"],
     "exclude": ["node_modules", "build"]
